@@ -70,6 +70,7 @@ ol,ul{list-style-type:none}
 .twoColumnLayout .leftColumn figure .imgwrap{width:260px;margin-right:10px}
 .twoColumnLayout .leftColumn figcaption{width:calc(100% - 270px);padding:10px}
 .twoColumnLayout .leftColumn figcaption .cat_tag{background:#dea846;font-weight:700;font-size:11.2px;line-height:14px;letter-spacing:.0753846px;color:#fff;display:inline-block;padding:5px 10px;margin:0 0 10px -20px;text-transform:uppercase}
+.twoColumnLayout .leftColumn figcaption .cat_tag a{color:#fff;}
 .twoColumnLayout .leftColumn figcaption h3{font-weight:700;font-size:20px;line-height:25px;letter-spacing:.134615px;color:#000;margin-bottom:10px}
 .twoColumnLayout figcaption .author_date_time{font-weight:400;font-size:10px;line-height:13px;letter-spacing:.0673077px;color:#000}
 .twoColumnLayout .leftColumn figcaption p{font-weight:600;font-size:14px;line-height:18px;color:#626161;margin:10px 0}
