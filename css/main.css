@@ -133,8 +133,9 @@ body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) r
 .footer_bottom .footer_social ul li{display:inline-block;margin-right:5px}
 .footer_bottom .footer_social ul li:last-child{margin-right:0}
 @media(max-width:767px){
+.container-fluid{margin-top:57px}
 .container{padding:0 10px}
-.topNavBar{background:#000}
+.topNavBar{background:#000;position:fixed;top:0;width:100%;z-index:9}
 .TopMidMenu{text-align:center}
 .TopMidMenu ul,.top_head{display:none}
 .m_site_logo{display:block}
