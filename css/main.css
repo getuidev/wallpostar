@@ -1,5 +1,5 @@
 *,:after,:before{padding:0;margin:0;outline:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-body{font-family:'Plus Jakarta Sans',sans-serif;color:#000;font-size:14px;line-height:18px;font-weight:400;background:#f2f2f2}
+body{font-family:'Plus Jakarta Sans',sans-serif;color:#000;font-size:14px;line-height:18px;font-weight:400;background:#f2f2f2;-webkit-text-size-adjust:none}
 img{max-width:100%}
 .imgwrap{position:relative}
 .imgwrap img{width:100%;display:block}
@@ -15,8 +15,8 @@ ol,ul{list-style-type:none}
 .top_head .adsMain{margin:0}
 .site_logo img{max-width:285px;margin-right:20px;display:block}
 .m_site_logo{display:none}
-.topNavBar{background:linear-gradient(270deg,#935512 0,#a58108 100%);min-height:47px}
-.topNavBar .container{display:flex;justify-content:flex-start;align-items:center;height:47px;position:relative}
+.topNavBar{background:linear-gradient(270deg,#935512 0,#a58108 100%);min-height:47px;position: relative;}
+.topNavBar>.container{display:flex;justify-content:flex-start;align-items:center;height:47px;position:relative}
 .TopMidMenu{flex:auto}
 .MenuBtn{float:left;margin:3px 10px 0 0;cursor:pointer;padding:5px 0 3px 0}
 .MenuBtn i{width:24px;display:block;border-top:2px solid #fff;padding-top:4px}
@@ -24,9 +24,9 @@ ol,ul{list-style-type:none}
 .MenuBtn i:nth-child(3){top:27px}
 .TopMidMenu ul li{display:inline-block;margin:0 9px}
 .TopMidMenu ul li a{font-size:14px;line-height:18px;font-weight:800;letter-spacing:.0942308px;text-transform:uppercase;color:#fff}
-.topSearch{width:24px;float:left;margin-left:10px}
+.topSearch{width:20px;float:left;margin-left:10px}
 .search-icon{display:block;cursor:pointer}
-.search_btn{width:24px;height:24px;display:block;background-image:url(../images/search.png);background-repeat:no-repeat;background-size:100%}
+.search_btn{width:20px;height:20px;display:block;background-image:url(../images/search.png);background-repeat:no-repeat;background-size:100%}
 .search{background:#fff;width:50%;position:absolute;right:0;top:47px;padding:10px;z-index:8;display:none;box-shadow:0 0 8px 0 rgb(35 14 194 / 20%)}
 .search-box{position:relative;display:flex}
 .search-box::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;border-style:solid;border-width:0 0 2px 0;border-color:rgba(0,0,0,.05);pointer-events:none}
@@ -39,6 +39,18 @@ ol,ul{list-style-type:none}
 0%{transform:translateY(-40px)}
 100%{transform:translateY(0)}
 }
+.menuNavigation{width:100%;display:none;float:left;padding:20px 0 100px 0;position:absolute;top:47px;left:0;z-index:8;height:100vh;background:#fff;overflow:auto}
+.menuNavigation::-webkit-scrollbar{display:none}
+.menuNavigation ul.listItems{list-style:none;padding:0;margin:0;justify-content:flex-start;flex-wrap:wrap;-moz-column-count:5;column-count:5}
+.menuNavigation ul.listItems>li{margin-bottom:15px}
+.menuNavigation ul.listItems li>a{font-size:14px;padding:3px 0;display:block;}
+.menuNavigation ul.listItems li a.menuHead{font-weight:700;font-size:18px;}
+.menuNavigation ul.listItems li ul.subItems{padding-top:5px}
+body.openMenu .MenuBtn{padding:4px 0 3px 0}
+body.openMenu .MenuBtn i{padding-top:0}
+body.openMenu .MenuBtn i:first-child{transform:translateY(2px) translateX(0) rotate(45deg);background:#fff}
+body.openMenu .MenuBtn i:nth-child(2){opacity:0;background:#fff}
+body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) rotate(-45deg);background:#fff}
 .TopNewsGrid{margin-bottom:30px}
 .TopNewsGrid .container{display:flex}
 .TopNewsGrid .grid-col{margin-right:2px}
@@ -131,6 +143,16 @@ ol,ul{list-style-type:none}
 .TopMidMenu ul,.top_head{display:none}
 .m_site_logo{display:block}
 .search{width:100%}
+.menuNavigation{padding-top:10px;}
+.menuNavigation ul.listItems{padding-bottom:30px;display:flex}
+.menuNavigation ul.listItems>li{width:100%;text-align:left;line-height:30px;padding:5px 0;margin:0;border:none;position:relative}
+.menuNavigation ul.listItems li ul.subItems{display:none}
+.menuNavigation ul.listItems li>a{color:#000;display:inline-block;}
+.menuNavigation ul.listItems li a.menuHead{font-size:18px;color:#000}
+.menuNavigation ul.listItems li.active .subItems{display:block;padding-left:20px}
+.listItems li span{border:solid #000;border-width:0 1px 1px 0;display:inline-block;padding:4px;transform:rotate(-45deg);-webkit-transform:rotate(-45deg);position:absolute;right:10px;top:14px}
+.listItems li.active span{transform:rotate(45deg);-webkit-transform:rotate(45deg)}
+.menuNavigation .listItems li span{border-color:#000}
 .TopNewsGrid .container,.footer_bottom,.memes_wrapper ul,.twoColumnLayout,.twoColumnLayout .leftColumn figure,.videoWrapper{flex-wrap:wrap}
 .TopNewsGrid .grid-col{margin-right:0;margin-bottom:2px;width:100%}
 .TopNewsGrid .grid-col:last-child{margin-bottom:0}
