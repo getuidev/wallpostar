@@ -64,8 +64,10 @@ ol,ul{list-style-type:none}
 .common_wrapper,.memes_wrapper,.photo-gallery,.trending_section,.video-gallery,.web-stories{margin-bottom:30px}
 .trending_section{background:#1e2124;padding:30px 0}
 .trending_section .common_heading h2 a{color:#fff}
-.trending_section .TrendCarousel .slideWrap{display:inline-flex;padding-left:40px;align-items:flex-end;position:relative}
-.trending_section .TrendCarousel .slideWrap .trendcount{color:#000;-webkit-text-stroke-width:4px;-webkit-text-stroke-color:#595959;font-size:100px;position:absolute;left:8px;font-weight:800;line-height:90px;font-family:Arial,Helvetica,sans-serif}
+.trending_section .TrendCarousel .slideWrap{padding-left:40px;position:relative}
+.trending_section .TrendCarousel .slideWrap .trendcount{color:#000;-webkit-text-stroke-width:4px;-webkit-text-stroke-color:#595959;font-size:100px;position:absolute;left:-30px;bottom:0;font-weight:800;line-height:90px;font-family:Arial,Helvetica,sans-serif}
+.trending_section .TrendCarousel .slideWrap h3{font-size:14px;line-height:18px;font-weight:600;letter-spacing:.0942308px;padding:10px;text-transform:capitalize;}
+.trending_section .TrendCarousel .slideWrap h3 a{color: #fff;}
 .trending_section .Arrows{margin-right:10px}
 .trending_section .Slick-Next,.trending_section .Slick-Prev{border:solid #dea846;border-width:0 3px 3px 0;display:inline-block;padding:8px;transition:all .5s;content:'';cursor:pointer}
 .trending_section .Slick-Next{transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}
@@ -207,5 +209,4 @@ body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) r
 .footer_links ul{text-align:center}
 .TopNewsGrid,.common_wrapper,.memes_wrapper,.photo-gallery,.trending_section,.twoColumnLayout .leftColumn figure:last-child,.video-gallery,.web-stories{margin-bottom:20px}
 .TopNewsGrid .leftColumn{flex-wrap:wrap;margin-bottom:20px}
-.trending_section .TrendCarousel .slideWrap .trendcount{left:5px}
 }
