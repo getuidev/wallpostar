@@ -193,6 +193,8 @@ ol,ul{list-style-type:none}
 .footer_bottom .footer_links ul li a:hover{color:#dea846}
 .footer_bottom .footer_social ul li{display:inline-block;margin-right:5px}
 .footer_bottom .footer_social ul li:last-child{margin-right:0}
+.scrolltop{width:35px;height:35px;position:fixed;bottom:40px;right:20px;display:none;background-color:#a58108;z-index:99;text-align:center;cursor:pointer}
+.scrolltop:after{border-bottom-style:solid;border-bottom-width:2px;border-right-style:solid;border-right-width:2px;content:"";display:inline-block;height:12px;width:12px;border-color:#fff;-moz-transform:rotate(225deg);-ms-transform:rotate(225deg);-webkit-transform:rotate(225deg);transform:rotate(225deg);margin-top:14px}
 @media(max-width:767px){
 .container-fluid{margin-top:57px}
 .container{padding:0 10px}
