@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Detail</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="top_head">
+            <div class="container">
+                <div class="site_logo">
+                    <a href="#"><img width="285" height="74" src="images/logo.png" alt=""></a>
+                </div>
+                <div class="adsMain"><img src="images/728x90.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="topNavBar">
+            <div class="container">
+                <div class="TopLMenu">
+                    <div id="toggleNav"><span class="MenuBtn"><i></i><i></i><i></i></span></div>
+                </div>
+                <div class="TopMidMenu">
+                    <div class="m_site_logo">
+                        <a href="#"><img width="169" height="44" src="images/logo.png" alt=""></a>
+                    </div>
+                    <ul>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">FILM PODCAST</a></li>
+                        <li><a href="#">OTT</a></li>
+                        <li><a href="#">INTERVIEWS</a></li>
+                        <li><a href="#">MOVIE REVIEWS</a></li>
+                        <li><a href="#">SHOW TIME</a></li>
+                        <li><a href="#">PHOTO GALLERY</a></li>
+                        <li><a href="#">Memes</a></li>
+                        <li><a href="#">FILMY ENCYCLOPEDIA</a></li>
+                        <li><a href="#">NRI</a></li>
+                    </ul>
+                </div>
+                <div class="topRmenu">
+                    <div class="topSearch">
+                        <div class="search-icon"><i class="search_btn"></i></div>
+                        <form action="" method="get" id="headerSearch" class="search" style="display: none;">
+                            <div class="search-box">
+                                <input autocomplete="off" placeholder="Search Here..." type="text" value=""
+                                    id="searchText2" name="q">
+                                <button class="search-form-btn" type="submit"><span>Search</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="megaMenu" class="menuNavigation">
+                <div class="container">
+                    <div class="trending_link">
+                        <a href="#">
+                            <strong>Trending News</strong>
+                            <span>View</span>
+                        </a>
+                    </div>
+                    <ul class="listItems">
+                        <li><a title="Lifestyle" href="/lifestyle" class="menuHead">Lifestyle</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/lifestyle/beauty-tips">Beauty</a></li>
+                                <li><a href="/lifestyle/diet">Food &amp; Drink</a></li>
+                                <li><a href="/lifestyle/fashion">Fashion</a></li>
+                                <li><a href="/lifestyle/relationships">Relationships</a></li>
+                                <li><a href="/lifestyle/spirituality">Spirituality&nbsp;</a></li>
+                                <li><a href="/lifestyle/fitness">Wellness</a></li>
+                                <li><a href="/lifestyle/travel">Travel</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Photos" href="/photogallery" class="menuHead">Photos</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/photogallery/auto-images">Auto</a></li>
+                                <li><a href="/photogallery/entertainment-images">Entertainment</a></li>
+                                <li><a href="/photogallery/india-images">India</a></li>
+                                <li><a href="/photogallery/lifestyle-images">Lifestyle</a></li>
+                                <li><a href="/photogallery/science-images">Science</a></li>
+                                <li><a href="/photogallery/sports-images">Sports</a></li>
+                                <li><a href="/photogallery/tech-images">Tech</a></li>
+                                <li><a href="/photogallery/world-images">World</a></li>
+                                <li><a href="/art-culture">Art &amp; Culture</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Videos" href="/videos" class="menuHead">Videos</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/videos/business-videos">Business</a></li>
+                                <li><a href="/videos/elections-videos">Elections</a></li>
+                                <li><a href="/videos/entertainment-videos">Entertainment</a></li>
+                                <li><a href="/videos/india-videos">India</a></li>
+                                <li><a href="/videos/sports-videos">Sports</a></li>
+                                <li><a href="/videos/technology-videos">Technology</a></li>
+                                <li><a href="/videos/world-videos">World</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Entertainment" href="/entertainment"
+                                class="menuHead">Entertainment</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/entertainment/bigg-boss">Bigg Boss</a></li>
+                                <li><a href="/entertainment/bollywood">Bollywood</a></li>
+                                <li><a href="/entertainment/hollywood">Hollywood</a></li>
+                                <li><a href="/entertainment/movie-review">Movie Reviews</a></li>
+                                <li><a href="/entertainment/ott">OTT</a></li>
+                                <li><a href="/entertainment/regional-cinema">Regional Cinema</a></li>
+                                <li><a href="/entertainment/television">Television</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Business" href="/business" class="menuHead">Business</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/business/commodities">Commodities</a></li>
+                                <li><a href="/business/companies">Companies</a></li>
+                                <li><a href="/business/personal-finance">Personal Finance</a></li>
+                                <li><a href="/business/economy">Economy</a></li>
+                                <li><a href="/business/gold-and-silver">Gold and Silver</a></li>
+                                <li><a href="/business/markets">Markets</a></li>
+                                <li><a href="/business/other-news">Startups&nbsp;</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Crime" href="/crime" class="menuHead">Crime</a>
+                            <ul class="subItems"></ul>
+                        </li>
+                        <li><a title="Agriculture" href="/agriculture" class="menuHead">Agriculture</a>
+                            <ul class="subItems"></ul>
+                        </li>
+                        <li><a title="Auto" href="/auto" class="menuHead">Auto</a>
+                            <ul class="subItems"></ul>
+                        </li>
+                        <li><a title="Defence" href="/defence" class="menuHead">Defence</a>
+                            <ul class="subItems"></ul>
+                        </li>
+                        <li><a title="Art &amp; Culture" href="/art-culture" class="menuHead">Art &amp;
+                                Culture</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/art-culture/cinema">Cinema</a></li>
+                                <li><a href="/art-culture/theatre">Theatre</a></li>
+                                <li><a href="/art-culture/music">Music</a></li>
+                                <li><a href="/art-culture/books">Books</a></li>
+                                <li><a href="/art-culture/society">Society</a></li>
+                                <li><a href="/art-culture/podcast">Podcast</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Opinion / Blogs" href="/opinion-blogs" class="menuHead">Opinion /
+                                Blogs</a>
+                            <ul class="subItems"></ul>
+                        </li>
+                    </ul>
+                    <div class="header_social">
+                        <strong>follow us:</strong>
+                        <ul>
+                            <li><a href="#"><img src="images/fb.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/insta.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/twit.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/yt.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid photo_detail_wrapper">
+        <div class="container">
+            <nav class="breadcrumbs-links">
+                <ol class="breadcrumbs">
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li>Koffee with Karan 7: Deepika Padukone, Salman Khan, Kareena Kapoor and more celebs who sparked controversies on Karan Johar's show in the past</li>
+                </ol>
+            </nav>
+            <h1 class="article-HD">Koffee with Karan 7: Deepika Padukone, Salman Khan, Kareena Kapoor and more celebs who sparked controversies on Karan Johar's show in the past</h1>
+            <p class="sub-title">With Koffee with Karan season 7 set to air soon, we thought of revisiting the most controversially explosive statements from past seasons, which host Karan Johar succeeded in ferreting from his celebrity guests</p>
+            <div class="byline">By: <a href="#">Wallpostar</a></div>
+            <div class="publishedDate">April 22, 2022 5:44 PM IST</div>
+            <div class="leftSidebar">
+                <div class="theiaStickySidebar">
+                    <div class="ArticleBodyCont photo_slide_list">
+                        <div class="photo_summary">
+                            <div class="photo_wrap">
+                                <figure>
+                                    <span class="photoCount"><span>01</span> / 20</span>
+                                    <img src="images/DSC_3184_1600x1068.jpg" alt="">
+                                    <div class="photo-gallery-single-desc">
+                                        <p>Pooja Hegde looks gorgeous in these latest pics</p>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="photo_wrap">
+                                <figure>
+                                    <span class="photoCount"><span>02</span> / 20</span>
+                                    <img src="images/DSC_3188_1600x1068.jpg" alt="">
+                                    <div class="photo-gallery-single-desc">
+                                        <p>Pooja Hegde looks gorgeous in these latest pics</p>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="photo_wrap">
+                                <figure>
+                                    <span class="photoCount"><span>03</span> / 20</span>
+                                    <img src="images/DSC_3176_1600x1067.jpg" alt="">
+                                    <div class="photo-gallery-single-desc">
+                                        <p>Pooja Hegde looks gorgeous in these latest pics</p>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="photo_wrap">
+                                <figure>
+                                    <span class="photoCount"><span>04</span> / 20</span>
+                                    <img src="images/DSC_3178_1600x1067.jpg" alt="">
+                                    <div class="photo-gallery-single-desc">
+                                        <p>Pooja Hegde looks gorgeous in these latest pics</p>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trendingNowWrapper">
+                        <h2>
+                            Trending Now					
+                            <span class="heading_icon">
+                                <svg fill="none" viewBox="0 0 16 17" tabindex="-1" aria-hidden="true">
+                                    <path fill="#a58108" d="M8 16.376a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"></path>
+                                    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="m9.51 5.626 2.11-.75.76 2.09"></path>
+                                    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="m3.42 10.696 2.21-3.05 2.03 3.83 3.95-6.5"></path>
+                                </svg>
+                            </span>
+                        </h2>
+                        <div class="trendingNow_contentWrap">
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/kashmir-files.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Box Office: 'The Kashmir Files' joins Rs 200 cr club</a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ssr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Shyam Singha Roy Opens To Good Start</a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/83.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Big Blow For The Historical Film '83'</a></h3>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="tagWrap">
+                        <h2 class="tag-head">Topics</h2>
+                        <ul>
+                            <li><a href="#">machine gun kelly</a></li>
+                            <li><a href="#">megan fox</a></li>
+                        </ul>
+                    </div>
+                    <div class="social_share">
+                        <ul class="social-icon">
+                            <li><a class="fb_icon" title="FaceBook" target="_blank" href="#" rel="nofollow noopener"></a></li>
+                            <li><a class="tw_icon" title="Twitter" target="_blank" href="#" rel="nofollow noopener"></a></li>
+                            <li><a class="link_icon" title="linkedin" target="_blank" href="#" rel="nofollow noopener"></a></li>
+                            <li><a class="wap_icon" title="whatsapp" target="_blank" href="#" rel="nofollow noopener"></a></li>
+                            <li><a class="tel_icon" title="telegram" target="_blank" href="#" rel="nofollow noopener"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSidebar">
+                <div class="theiaStickySidebar">
+                    <div class="adsMain"></div>
+                    <div class="RHSlatestNews">
+                        <div class="common_heading">
+                            <h2><a href="#">latest news</a></h2>
+                        </div>
+                        <div class="contentWrap">
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ghani.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Varun Tej Declared 'Ghani' As A Flop</a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/rrr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Shocking Facts Behind RRR Collections</a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ssr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Shyam Singha Roy Opens To Good Start</a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/kashmir-files.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Box Office: 'The Kashmir Files' joins Rs 200 cr club</a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/radhe-shyam.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Radhe Shyam Grosses $2 Million</a></h3>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/83.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Big Blow For The Historical Film '83'</a></h3>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer_wrapper">
+        <span class="scrolltop"></span>
+        <div class="container">
+            <div class="footer_logo">
+                <a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_links">
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Advertise With Us</a></li>
+                        <li><a href="#">Privacy & Cookies Notice</a></li>
+                        <li><a href="#">Complaint Redressal</a></li>
+                    </ul>
+                    <ul>
+                        <li>Copyright © 2022 wallpostar. All rights reserved. Powered by Veegam</li>
+                    </ul>
+                </div>
+                <div class="footer_social">
+                    <span>follow us:</span>
+                    <ul>
+                        <li><a href="#"><img src="images/fb.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/insta.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/twit.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/yt.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/theia-sticky-sidebar.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() >= 1000) {
+                $('.leftSidebar, .rightSidebar')
+                    .theiaStickySidebar({
+                        additionalMarginTop: 30
+                    });
+            }
+        });
+    </script>
+</body>
+
+</html>
