@@ -257,7 +257,7 @@ to{transform:scale(3);opacity:0}
 .movie_review_cont .cast_crew_carousel .slide_wrap img{border-radius: 50%;margin-bottom:10px;}
 .movie_review_cont .cast_crew_carousel .slide_info{display: flex;justify-content: center;align-items: center;flex-wrap: wrap;}
 .movie_review_cont .cast_crew_carousel .slide_info strong{width:100%;text-align: center;}
-.movie_review_cont .cast_crew_carousel .slide_info small{color:#666}
+.movie_review_cont .cast_crew_carousel .slide_info small{color:#666;text-align: center;}
 .movie_review_cont .slick-prev,.movie_review_cont .slick-next{font-size: 0;line-height: 0;position: absolute;top: 50%;display: block;width: 40px;height: 40px;border-radius:40px;padding: 0;-webkit-transform: translate(0, -50%);-ms-transform: translate(0, -50%);transform: translate(0, -50%);cursor: pointer;color: #fff;border: none;outline: none;background: #717171;z-index:1;}
 .movie_review_cont .slick-prev.slick-disabled:before,.movie_review_cont .slick-next.slick-disabled:before{opacity: .25;}
 .movie_review_cont .slick-prev{left: -10px;}
