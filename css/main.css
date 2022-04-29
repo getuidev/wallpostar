@@ -123,8 +123,8 @@ ol,ul{list-style-type:none}
 .videoWrapper .videoListWrap figure:last-child{border-bottom:none;padding-bottom:0;margin-bottom:0}
 .videoWrapper .videoListWrap .imgwrap{width:133px;margin-right:10px}
 .videoWrapper .videoListWrap .imgwrap img{width:100%}
-.videoWrapper .videoListWrap .video_timestamp{background:#0b0b0d;font-weight:700;font-size:11px;line-height:14px;letter-spacing:.161538px;color:#fff;padding:5px 10px;display:flex}
-.videoWrapper .videoListWrap .video_timestamp .play_icon{display:inline-block;width:7px;height:13px;margin-right:6px}
+.video_timestamp{background:#0b0b0d;font-weight:700;font-size:11px;line-height:14px;letter-spacing:.161538px;color:#fff;padding:5px 10px;display:flex}
+.video_timestamp .play_icon{display:inline-block;width:7px;height:13px;margin-right:6px}
 .videoWrapper .videoListWrap figcaption{width:calc(100% - 143px)}
 .videoWrapper .videoListWrap figcaption h3 a{font-weight:700;font-size:18px;line-height:23px;letter-spacing:.121154px;color:#fff}
 .breadcrumbs-links{margin-bottom:10px}
@@ -235,6 +235,38 @@ to{transform:scale(3);opacity:0}
 .photoCount span{font-size:27px;color:#fff;font-weight:700}
 .photo-gallery-single-desc{padding:10px;background-color:#0b0b0d}
 .photo-gallery-single-desc p{color:#fff;font-size:16px;line-height:32px;margin:0;text-align:left}
+.movie_review_cont h2{font-weight: 800;font-size: 36px;line-height: 48px;letter-spacing: .242308px;margin-bottom:10px;}
+.movie_review_cont .about_movie_desc figure{display:flex;justify-content: flex-start;margin-bottom:20px;}
+.movie_review_cont .about_movie_desc .imgwrap{width:180px;margin-right:20px;}
+.movie_review_cont .about_movie_desc figcaption{width:calc(100% - 200px);padding:15px;background:#fff;box-shadow:0 5px 10px rgba(0,0,0,.05);}
+.movie_review_cont .movie_title h3{position: relative;z-index: 0;text-align: center;margin-bottom: 10px;font-size: 18px;font-weight: 800;}
+.movie_review_cont .movie_title h3 span{background: #fff;padding: 0 15px;}
+.movie_review_cont .movie_title h3::before{border-top:1px solid #979797;content:"";margin:0 auto;position:absolute;top:50%;left:0;right:0;bottom:0;width:100%;z-index:-1}
+.movie_review_cont .rating_box{display: flex;justify-content: space-evenly;align-items: center;margin:20px 0;}
+.movie_review_cont .rating_box span{font-size:16px;font-weight:600;text-transform: capitalize;}
+.movie_review_cont .movie_desc strong{color: #0c0d11;font-size:18px;font-weight:700;display: block;margin-bottom:10px;}
+.movie_review_cont .movie_desc p{color:#686766;font-size:16px;line-height:1.4;margin-bottom:10px;}
+.movie_review_cont .movie_desc .seemore{text-align: center;padding:10px 10px 0 10px;border-top: 1px solid #d6d6d6;}
+.movie_review_cont .movie_desc .seemore a{color:#5870d3;text-transform: uppercase;}
+.movie_review_cont .gal_wrap{background:#fff;box-shadow:0 5px 10px rgba(0,0,0,.05);padding:15px;margin-bottom:20px;}
+.movie_review_cont .gal_wrap h2{color:#0c0d11;font-size: 36px;line-height: 48px;letter-spacing: .242308px;font-weight:800;text-transform: capitalize;}
+.movie_review_cont .slide{position: relative;}
+.movie_review_cont .slide .video_timestamp,.movie_review_cont .slide .gal-count{position: absolute;bottom: 0;right: 0;}
+.movie_review_cont .slick-slide {margin: 0px 10px;}
+.movie_review_cont .slick-slide img {width: 100%;}
+.movie_review_cont .cast_crew_carousel .slide_wrap img{border-radius: 50%;margin-bottom:10px;}
+.movie_review_cont .cast_crew_carousel .slide_info{display: flex;justify-content: center;align-items: center;flex-wrap: wrap;}
+.movie_review_cont .cast_crew_carousel .slide_info strong{width:100%;text-align: center;}
+.movie_review_cont .cast_crew_carousel .slide_info small{color:#666}
+.review_tabs{margin-bottom:20px;}
+.review_tabs .tabcontent figure{background:#ebebeb;display:flex;margin-bottom:15px}
+.review_tabs .tabcontent figure:last-child{margin-bottom:0}
+.review_tabs .tabcontent .imgwrap{width:100px;margin-right:10px}
+.review_tabs .tabcontent figcaption{width:calc(100% - 110px);padding:10px 10px 10px 0;text-transform:uppercase}
+.review_tabs .tabcontent figcaption h3{margin-bottom:5px;font-size:14px}
+.review_tabs .tab{background:#fff;box-shadow:0 5px 10px rgba(0,0,0,.05);margin-bottom:10px;display:flex;justify-content:flex-start;}
+.review_tabs .tab .tablinks{border:0;background:#fff;padding:10px;font-weight:400;font-size:14px;line-height:1.4;color:#7e7d7d;cursor:pointer;text-transform:uppercase;border-bottom:4px solid #fff}
+.review_tabs .tab .tablinks.active{color:#404040;border-bottom:4px solid #cf8500;font-weight:600;}
 .footer_wrapper{background-color:#0b0b0d;padding:25px 0;clear:both}
 .footer_logo{text-align:center;margin-bottom:20px}
 .footer_bottom{display:flex;justify-content:space-between;align-items:flex-end}

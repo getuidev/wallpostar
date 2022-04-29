@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Reviews</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="top_head">
+            <div class="container">
+                <div class="site_logo">
+                    <a href="#"><img width="285" height="74" src="images/logo.png" alt=""></a>
+                </div>
+                <div class="adsMain"><img src="images/728x90.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="topNavBar">
+            <div class="container">
+                <div class="TopLMenu">
+                    <div id="toggleNav"><span class="MenuBtn"><i></i><i></i><i></i></span></div>
+                </div>
+                <div class="TopMidMenu">
+                    <div class="m_site_logo">
+                        <a href="#"><img width="169" height="44" src="images/logo.png" alt=""></a>
+                    </div>
+                    <ul>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">FILM PODCAST</a></li>
+                        <li><a href="#">OTT</a></li>
+                        <li><a href="#">INTERVIEWS</a></li>
+                        <li><a href="#">MOVIE REVIEWS</a></li>
+                        <li><a href="#">SHOW TIME</a></li>
+                        <li><a href="#">PHOTO GALLERY</a></li>
+                        <li><a href="#">Memes</a></li>
+                        <li><a href="#">FILMY ENCYCLOPEDIA</a></li>
+                        <li><a href="#">NRI</a></li>
+                    </ul>
+                </div>
+                <div class="topRmenu">
+                    <div class="topSearch">
+                        <div class="search-icon"><i class="search_btn"></i></div>
+                        <form action="" method="get" id="headerSearch" class="search" style="display: none;">
+                            <div class="search-box">
+                                <input autocomplete="off" placeholder="Search Here..." type="text" value=""
+                                    id="searchText2" name="q">
+                                <button class="search-form-btn" type="submit"><span>Search</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="megaMenu" class="menuNavigation">
+                <div class="container">
+                    <div class="trending_link">
+                        <a href="#">
+                            <strong>Trending News</strong>
+                            <span>View</span>
+                        </a>
+                    </div>
+                    <ul class="listItems">
+                        <li><a title="Lifestyle" href="/lifestyle" class="menuHead">Lifestyle</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/lifestyle/beauty-tips">Beauty</a></li>
+                                <li><a href="/lifestyle/diet">Food &amp; Drink</a></li>
+                                <li><a href="/lifestyle/fashion">Fashion</a></li>
+                                <li><a href="/lifestyle/relationships">Relationships</a></li>
+                                <li><a href="/lifestyle/spirituality">Spirituality&nbsp;</a></li>
+                                <li><a href="/lifestyle/fitness">Wellness</a></li>
+                                <li><a href="/lifestyle/travel">Travel</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Photos" href="/photogallery" class="menuHead">Photos</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/photogallery/auto-images">Auto</a></li>
+                                <li><a href="/photogallery/entertainment-images">Entertainment</a></li>
+                                <li><a href="/photogallery/india-images">India</a></li>
+                                <li><a href="/photogallery/lifestyle-images">Lifestyle</a></li>
+                                <li><a href="/photogallery/science-images">Science</a></li>
+                                <li><a href="/photogallery/sports-images">Sports</a></li>
+                                <li><a href="/photogallery/tech-images">Tech</a></li>
+                                <li><a href="/photogallery/world-images">World</a></li>
+                                <li><a href="/art-culture">Art &amp; Culture</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Videos" href="/videos" class="menuHead">Videos</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/videos/business-videos">Business</a></li>
+                                <li><a href="/videos/elections-videos">Elections</a></li>
+                                <li><a href="/videos/entertainment-videos">Entertainment</a></li>
+                                <li><a href="/videos/india-videos">India</a></li>
+                                <li><a href="/videos/sports-videos">Sports</a></li>
+                                <li><a href="/videos/technology-videos">Technology</a></li>
+                                <li><a href="/videos/world-videos">World</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Entertainment" href="/entertainment"
+                                class="menuHead">Entertainment</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/entertainment/bigg-boss">Bigg Boss</a></li>
+                                <li><a href="/entertainment/bollywood">Bollywood</a></li>
+                                <li><a href="/entertainment/hollywood">Hollywood</a></li>
+                                <li><a href="/entertainment/movie-review">Movie Reviews</a></li>
+                                <li><a href="/entertainment/ott">OTT</a></li>
+                                <li><a href="/entertainment/regional-cinema">Regional Cinema</a></li>
+                                <li><a href="/entertainment/television">Television</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Business" href="/business" class="menuHead">Business</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/business/commodities">Commodities</a></li>
+                                <li><a href="/business/companies">Companies</a></li>
+                                <li><a href="/business/personal-finance">Personal Finance</a></li>
+                                <li><a href="/business/economy">Economy</a></li>
+                                <li><a href="/business/gold-and-silver">Gold and Silver</a></li>
+                                <li><a href="/business/markets">Markets</a></li>
+                                <li><a href="/business/other-news">Startups&nbsp;</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Crime" href="/crime" class="menuHead">Crime</a>
+                            <ul class="subItems"></ul>
+                        </li>
+                        <li><a title="Agriculture" href="/agriculture" class="menuHead">Agriculture</a>
+                            <ul class="subItems"></ul>
+                        </li>
+                        <li><a title="Auto" href="/auto" class="menuHead">Auto</a>
+                            <ul class="subItems"></ul>
+                        </li>
+                        <li><a title="Defence" href="/defence" class="menuHead">Defence</a>
+                            <ul class="subItems"></ul>
+                        </li>
+                        <li><a title="Art &amp; Culture" href="/art-culture" class="menuHead">Art &amp;
+                                Culture</a><span></span>
+                            <ul class="subItems">
+                                <li><a href="/art-culture/cinema">Cinema</a></li>
+                                <li><a href="/art-culture/theatre">Theatre</a></li>
+                                <li><a href="/art-culture/music">Music</a></li>
+                                <li><a href="/art-culture/books">Books</a></li>
+                                <li><a href="/art-culture/society">Society</a></li>
+                                <li><a href="/art-culture/podcast">Podcast</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Opinion / Blogs" href="/opinion-blogs" class="menuHead">Opinion /
+                                Blogs</a>
+                            <ul class="subItems"></ul>
+                        </li>
+                    </ul>
+                    <div class="header_social">
+                        <strong>follow us:</strong>
+                        <ul>
+                            <li><a href="#"><img src="images/fb.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/insta.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/twit.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/yt.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="container">
+            <nav class="breadcrumbs-links">
+                <ol class="breadcrumbs">
+                    <li><a href="#">Movie Review</a></li>
+                    <li><a href="#">Telugu</a></li>
+                    <li>K.G.F: Chapter 2</li>
+                </ol>
+            </nav>
+            <div class="leftSidebar">
+                <div class="theiaStickySidebar">
+                    <div class="movie_review_cont">
+                        <h2>K.G.F: Chapter 2</h2>
+                        <div class="about_movie_desc">
+                            <figure>
+                                <div class="imgwrap">
+                                    <img src="images/kgf2-poster.jpg" alt="">
+                                </div>
+                                <figcaption>
+                                    <div class="movie_title">
+                                        <h3><span>K.G.F: Chapter 2</span></h3>
+                                    </div>
+                                    <div class="rating_box">
+                                        <span>critic's rating</span>
+                                        <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0<small>/5</small></strong></div>
+                                    </div>
+                                    <div class="movie_desc">
+                                        <strong>About the movie</strong>
+                                        <p>The film belongs as much to filmmaker Prashanth Neel as it does to Yash. Both of them have managed to deliver a sequel that seems more immersive than the first part. Albeit, Prashanth has always maintained that the second part had the bigger chunk of his original story when they decided to break it into two parts.</p>
+                                        <div class="seemore">
+                                            <a href="#">see details</a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="gal_wrap">
+                            <h2>videos</h2>
+                            <div class="carousel_wrap">
+                                <div class="slide">
+                                    <a href="#">
+                                        <img src="images/trend1.jpg" alt="">
+                                        <div class="video_timestamp"><i class="play_icon"></i>4m 30s</div>
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a href="#">
+                                        <img src="images/trend2.jpg" alt="">
+                                        <div class="video_timestamp"><i class="play_icon"></i>4m 30s</div>
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a href="#">
+                                        <img src="images/trend3.jpg" alt="">
+                                        <div class="video_timestamp"><i class="play_icon"></i>4m 30s</div>
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a href="#">
+                                        <img src="images/trend4.jpg" alt="">
+                                        <div class="video_timestamp"><i class="play_icon"></i>4m 30s</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gal_wrap">
+                            <h2>photos</h2>
+                            <div class="carousel_wrap">
+                                <div class="slide">
+                                    <a href="#">
+                                        <img src="images/trend1.jpg" alt="">
+                                        <div class="gal-count">3+</div>
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a href="#">
+                                        <img src="images/trend2.jpg" alt="">
+                                        <div class="gal-count">3+</div>
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a href="#">
+                                        <img src="images/trend3.jpg" alt="">
+                                        <div class="gal-count">3+</div>
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a href="#">
+                                        <img src="images/trend4.jpg" alt="">
+                                        <div class="gal-count">3+</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gal_wrap">
+                            <h2>cast</h2>
+                            <div class="cast_crew_carousel">
+                                <div class="slide_wrap">
+                                    <a href="#">
+                                        <img src="images/yash.jpg" alt="">
+                                        <div class="slide_info">
+                                            <strong>Yash</strong>
+                                            <small>as Rocky</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide_wrap">
+                                    <a href="#">
+                                        <img src="images/sanjay.jpg" alt="">
+                                        <div class="slide_info">
+                                            <strong>Sanjay Dutt</strong>
+                                            <small>as Adheera</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide_wrap">
+                                    <a href="#">
+                                        <img src="images/srinidhi.jpg" alt="">
+                                        <div class="slide_info">
+                                            <strong>Srinidhi Shetty</strong>
+                                            <small>as Reena</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide_wrap">
+                                    <a href="#">
+                                        <img src="images/raveena.jpg" alt="">
+                                        <div class="slide_info">
+                                            <strong>Raveena Tandon</strong>
+                                            <small>as Ramika Sen</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide_wrap">
+                                    <a href="#">
+                                        <img src="images/praj.jpg" alt="">
+                                        <div class="slide_info">
+                                            <strong>Prakash Raj</strong>
+                                            <small>as Vijayendra Ingalgi</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide_wrap">
+                                    <a href="#">
+                                        <img src="images/yash.jpg" alt="">
+                                        <div class="slide_info">
+                                            <strong>Yash</strong>
+                                            <small>as Rocky</small>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gal_wrap">
+                            <h2>crew</h2>
+                            <div class="cast_crew_carousel">
+                                <div class="slide_wrap">
+                                    <a href="#">
+                                        <img src="images/yash.jpg" alt="">
+                                        <div class="slide_info">
+                                            <strong>Yash</strong>
+                                            <small>as Rocky</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide_wrap">
+                                    <a href="#">
+                                        <img src="images/sanjay.jpg" alt="">
+                                        <div class="slide_info">
+                                            <strong>Sanjay Dutt</strong>
+                                            <small>as Adheera</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide_wrap">
+                                    <a href="#">
+                                        <img src="images/srinidhi.jpg" alt="">
+                                        <div class="slide_info">
+                                            <strong>Srinidhi Shetty</strong>
+                                            <small>as Reena</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="slide_wrap">
+                                    <a href="#">
+                                        <img src="images/raveena.jpg" alt="">
+                                        <div class="slide_info">
+                                            <strong>Raveena Tandon</strong>
+                                            <small>as Ramika Sen</small>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSidebar">
+                <div class="theiaStickySidebar">
+                    <div class="review_tabs">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openTab(event, 'Tab1')" id="defaultOpen">In Theaters</button>
+                            <button class="tablinks" onclick="openTab(event, 'Tab2')">streaming movies</button>
+                            <button class="tablinks" onclick="openTab(event, 'Tab3')">tv shows</button>
+                        </div>
+                        <div id="Tab1" class="tabcontent">
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/kashmir-files.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Kashmir Files</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ssr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">shyam singha roy</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ghani.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">ghani</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/83.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">83</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/rrr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">rrr</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/kashmir-files.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Kashmir Files</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ssr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">shyam singha roy</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ghani.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">ghani</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/83.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">83</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/rrr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">rrr</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div id="Tab2" class="tabcontent">
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/kashmir-files.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Kashmir Files</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ssr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">shyam singha roy</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ghani.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">ghani</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/83.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">83</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/rrr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">rrr</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/kashmir-files.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Kashmir Files</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ssr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">shyam singha roy</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ghani.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">ghani</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/83.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">83</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/rrr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">rrr</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div id="Tab3" class="tabcontent">
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/kashmir-files.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Kashmir Files</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ssr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">shyam singha roy</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ghani.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">ghani</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/83.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">83</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/rrr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">rrr</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/kashmir-files.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">Kashmir Files</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ssr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">shyam singha roy</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/ghani.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">ghani</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/83.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">83</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <div class="imgwrap">
+                                    <a href="#"><img src="images/rrr.jpg" alt=""></a>
+                                </div>
+                                <figcaption>
+                                    <h3><a href="#">rrr</a></h3>
+                                    <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer_wrapper">
+        <span class="scrolltop"></span>
+        <div class="container">
+            <div class="footer_logo">
+                <a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_links">
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Advertise With Us</a></li>
+                        <li><a href="#">Privacy & Cookies Notice</a></li>
+                        <li><a href="#">Complaint Redressal</a></li>
+                    </ul>
+                    <ul>
+                        <li>Copyright © 2022 wallpostar. All rights reserved. Powered by Veegam</li>
+                    </ul>
+                </div>
+                <div class="footer_social">
+                    <span>follow us:</span>
+                    <ul>
+                        <li><a href="#"><img src="images/fb.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/insta.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/twit.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/yt.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/theia-sticky-sidebar.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() >= 1000) {
+                $('.leftSidebar, .rightSidebar')
+                    .theiaStickySidebar({
+                        additionalMarginTop: 30
+                    });
+            }
+        });
+    </script>
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".carousel_wrap").slick({
+                rtl:false,
+                speed:800,
+                slidesToShow:3,
+                slidesToScroll:1,
+                easing:"linear",
+                responsive:[
+                {breakpoint:801,settings:{
+                    slidesToShow:3,
+                }},
+                {breakpoint:641,settings:{
+                    slidesToShow:3,
+                }},
+                {breakpoint:481,settings:{
+                    slidesToShow:1,
+                }},
+                ],
+            })
+        })
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".cast_crew_carousel").slick({
+                rtl:false,
+                speed:800,
+                slidesToShow:5,
+                slidesToScroll:1,
+                easing:"linear",
+                responsive:[
+                {breakpoint:801,settings:{
+                    slidesToShow:3,
+                }},
+                {breakpoint:641,settings:{
+                    slidesToShow:3,
+                }},
+                {breakpoint:481,settings:{
+                    slidesToShow:1,
+                }},
+                ],
+            })
+        })
+    </script>
+</body>
+
+</html>
