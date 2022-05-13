@@ -23,8 +23,6 @@ ol,ul{list-style-type:none}
 .topNavBar>.container{display:flex;justify-content:flex-start;align-items:center;height:47px;position:relative}
 .TopLMenu{display:none}
 .TopMidMenu{flex:auto}
-.TopMidMenu ul{display:flex;align-items: center;}
-.TopMidMenu ul li.sticky_logo{display: none;}
 .MenuBtn{float:left;margin:3px 10px 0 0;cursor:pointer;padding:5px 0 3px 0}
 .MenuBtn i{width:24px;display:block;border-top:2px solid #fff;padding-top:4px}
 .MenuBtn i:nth-child(2){top:23px;margin-left:0}
@@ -48,13 +46,14 @@ ol,ul{list-style-type:none}
 .TopNewsGrid .container{display:flex}
 .TopNewsGrid .leftColumn{width:calc(100% - 315px);display:flex}
 .TopNewsGrid .rightColumn{width:300px;margin-left:15px}
+.TopNewsGrid .grid-col{margin-right:2px}
+.TopNewsGrid .grid-col:last-child{margin-right:0}
 .TopNewsGrid .grid-col figure{position:relative}
 .TopNewsGrid .grid-col figure img{display:block;width:100%}
 .TopNewsGrid .grid-col figcaption{position:absolute;bottom:15px;left:0}
 .TopNewsGrid .grid-col figcaption a{display:block}
-.TopNewsGrid .grid-col figcaption .grid-title span{font-size:16px;line-height:20px;letter-spacing:.107692px;color:#fff;background:linear-gradient(270deg,#935512 0,#a58108 100%);padding:5px 15px;display:inline-block;height:auto;position: relative;}
-.TopNewsGrid .grid-col figcaption .grid-title span::before{content: "";position: absolute;left: 0;height: 315px;bottom: 0;border-left: 3px solid #a58108;}
-.TopNewsGrid .grid-col figcaption .grid-subtitle{font-size:14px;line-height:18px;font-weight:700;letter-spacing:.0942308px;color:#fff;padding:10px;display:inline-block;height:auto;background:#000;width:80%;overflow:hidden}
+.TopNewsGrid .grid-col figcaption .grid-title span{font-size:16px;line-height:20px;font-weight:700;letter-spacing:.107692px;text-transform:uppercase;color:#fff;background:#0c0d11;padding:5px 15px;display:inline-block;height:auto}
+.TopNewsGrid .grid-col figcaption .grid-subtitle{font-size:14px;line-height:18px;font-weight:700;letter-spacing:.0942308px;color:#0b0b0d;padding:10px;display:inline-block;height:auto;background:#dea846;width:80%;overflow:hidden}
 .TopNewsGrid .movie_review_wrapper figure{background:#ebebeb;display:flex;margin-bottom:15px}
 .TopNewsGrid .movie_review_wrapper figure:last-child{margin-bottom:0}
 .TopNewsGrid .movie_review_wrapper .imgwrap{width:100px;margin-right:10px}

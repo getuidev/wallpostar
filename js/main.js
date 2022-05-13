@@ -1,12 +1,15 @@
 $(document).ready(function () {
     if ($(window).width() >= 1000) {
         $(window).scroll(function () {
-            var sticky = $('.topNavBar'),
+            var sticky = $('.topNavBar');
+            var slogo = $('.sticky_logo');
                 scroll = $(window).scrollTop();
             if (scroll >= 113) {
                 sticky.addClass('sticky-header');
+                slogo.show();
             } else {
                 sticky.removeClass('sticky-header');
+                slogo.hide();
             }
         });
     }
