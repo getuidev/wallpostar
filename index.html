@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -266,6 +267,90 @@
                             <figcaption>
                                 <h3><a href="#">rrr</a></h3>
                                 <div class="starRatings" style="--rating: 3;--star-background:#dea846"><strong>3.0</strong></div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="TopNewsGrid_Mobile">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <figure>
+                            <div class="image-container">
+                                <a href="#"><img width="300" height="500" src="images/MicrosoftTeams-image-212-2.jpeg" alt=""></a>
+                            </div>
+                            <figcaption>
+                                <a href="#">
+                                    <div class="grid-title"><span>Big Confession</span></div>
+                                    <h2 class="grid-subtitle">Kangana reveals why she is not able to marry</h2>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <div class="image-container">
+                                <a href="#"><img width="300" height="500" src="images/beast.jpg" alt=""></a>
+                            </div>
+                            <figcaption>
+                                <a href="#">
+                                    <div class="grid-title"><span>Beast</span></div>
+                                    <h2 class="grid-subtitle">Varun Tej Declared 'Ghani' As A Flop</h2>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <div class="image-container">
+                                <a href="#"><img width="300" height="500" src="images/MicrosoftTeams-image-213-1.jpeg" alt=""></a>
+                            </div>
+                            <figcaption>
+                                <a href="#">
+                                    <div class="grid-title"><span>Movie Review</span></div>
+                                    <h2 class="grid-subtitle">Sarkaru Vaari Paata a blockbuster or disaster? </h2>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <div class="image-container">
+                                <a href="#"><img width="300" height="500" src="images/MicrosoftTeams-image-212-2.jpeg" alt=""></a>
+                            </div>
+                            <figcaption>
+                                <a href="#">
+                                    <div class="grid-title"><span>Big Confession</span></div>
+                                    <h2 class="grid-subtitle">Kangana reveals why she is not able to marry</h2>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <div class="image-container">
+                                <a href="#"><img width="300" height="500" src="images/beast.jpg" alt=""></a>
+                            </div>
+                            <figcaption>
+                                <a href="#">
+                                    <div class="grid-title"><span>Beast</span></div>
+                                    <h2 class="grid-subtitle">Varun Tej Declared 'Ghani' As A Flop</h2>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <div class="image-container">
+                                <a href="#"><img width="300" height="500" src="images/MicrosoftTeams-image-213-1.jpeg" alt=""></a>
+                            </div>
+                            <figcaption>
+                                <a href="#">
+                                    <div class="grid-title"><span>Movie Review</span></div>
+                                    <h2 class="grid-subtitle">Sarkaru Vaari Paata a blockbuster or disaster? </h2>
+                                </a>
                             </figcaption>
                         </figure>
                     </div>
@@ -1312,8 +1397,30 @@
         </div>
     </footer>
     <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            loop: true,    
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 30,
+                depth: 5,
+                modifier: 1,
+                slideShadows : true,
+                loop: true,
+            },
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
     <script>
         $(document).ready(function(){
             $(".TrendCarousel").slick({
